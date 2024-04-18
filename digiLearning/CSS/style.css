@@ -1,0 +1,78 @@
+.navbar-brand{
+font-family: 'Ubuntu Mono', monospace;
+font-size: 2em;
+font-weight: bold;
+color: #fff;
+}
+
+.custom-nav .custom-nav-item a{
+    color: #fff !important;
+}
+
+.custom-nav-item:hover{
+    background-color:darkorange;
+    border: solid darkorange 1px;
+    border-radius: 10px;
+}
+
+.custom-nav-it:hover{
+    background-color:darkorange;
+    border: soliddarkorange 1px;
+    border-radius: 10px;
+}
+
+
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-parent{
+    position:relative;
+}
+video{
+    width: 110%;
+    height: 110%;
+}
+
+.vid-content{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    color: #fff;
+}
+.bottom-banner{
+    color: #fff;
+    padding: 10px; 
+}
+
+a.social-hover:hover{
+    padding: 5px 100px;
+    text-decoration: none;
+    background-color: rgb(95,93,93);
+}
+.stripe{
+    background-image: linear-gradient(240deg, #ed213a , #93291e);
+    padding: 3rem;
+    height: 13rem;
+    margin-top: 4rem;
+    transform: rotate(10deg);
+    z-index: -5;
+}
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .my-content,.txt-banner{
+        display:none;
+    }
+    .vid-content{
+        top: 12%;
+        left: 43%;
+    }
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: #225470;
+        
+    }
+}
